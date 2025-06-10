@@ -1,0 +1,80 @@
+body {
+  background-image: linear-gradient(90deg,rgba(214, 160, 232, 1) 0%, rgba(180, 87, 199, 1) 50%, rgba(237, 83, 181, 1) 100%);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  background-image: radial-gradient(circle,rgba(255, 255, 255, 1) 0%, rgba(255, 214, 255, 1) 50%, rgba(227, 193, 227, 1) 100%);
+  color: rgb(0, 0, 0);
+  padding: 30px 0;
+  font-size: 2em;
+  width: 100%;
+  margin: 0;
+  font-family:"EB Garamond", serif;
+}
+
+h2{
+  background-image: radial-gradient(circle,rgba(255, 255, 255, 1) 0%, rgba(255, 214, 255, 1) 50%, rgba(227, 193, 227, 1) 100%);
+  font-size: 25px;
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+section p {
+  width: 50%;
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+section img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+table {
+  margin: 20px auto;
+  background-color: white;
+  border-color: #000000;
+}
+
+table th, table td {
+  padding: 10px 20px;
+}
+
+iframe {
+  margin: 30px 0;
+}
+
+h1 a {
+  color: #0a0a0a;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  text-decoration: underline;
+}
+
+main {
+    background-image: radial-gradient(circle,rgba(255, 255, 255, 1) 0%, rgba(255, 214, 255, 1) 50%, rgba(227, 193, 227, 1) 100%);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 40px auto;
+}
